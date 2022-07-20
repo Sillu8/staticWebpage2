@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    font-family: SoDoSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header{
+    height: 13.3vh;
+    width: 100%;
+    display: flex;
+}
+.left-header-section{
+    display: flex;
+    flex: 1;
+}
+.logo-space{
+    width: 19.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 36px;
+}
+.logo{
+    width: 52.6px;
+    height: 51px;
+}
+
+.menu-items{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.lists{
+    display: flex;
+}
+.lists li{
+    list-style: none;
+    display: inline;
+    padding-right: 22px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.right-header-section{
+    display: flex;
+    align-items: center;
+    margin-right: 12em;
+    justify-content: flex-end;
+    flex: 1;
+}
+.store-locator{
+    display: flex;
+    align-items: center;
+}
+.store-locator a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+.location-logo{
+    width: 32px;
+    height: 32px;
+}
+.location-para {
+    margin-left: 8px;
+}
+.btn{
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 20px;
+    padding: 7px 16px;
+    background-color: transparent;
+}
+.join{
+    background: black;
+    color: white;
+    font-weight: bold;
+    margin-left: 11px;
+}
+.sign-in{
+    margin-left: 2em;
+}
+
+.login{
+    width:80%;
+}
+
+hr{
+    border-top: 1px solid rgb(179, 165, 165);
+}
+
+.container1{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.left-c1-section{
+    width: 40%;
+    height: 100%;
+    background-color: #fa91aa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-left-c1{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-heading{
+    font-size: 54px;
+    line-height: 48px;
+    font-family: arial;
+    color: #1e3932;
+    font-weight: 700;
+    text-align: center;
+}
+.content-para{
+    color: #1e3932;
+    font-size: 22px;
+    font-family: arial;
+    line-height: 27px;
+    text-align: center;
+}
+.content-btn{
+    font-size: 15px;
+    font-weight: bold;
+    border-width: 1px;
+}
+
+.right-c1-section{
+    width: 40%;
+    height: 100%;
+}
+.right-c1-section img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container2{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.left-c2-section{
+    width: 40%;
+    height: 100%;
+}
+.left-c2-section img{
+    width: 100%;
+    height: 100%;
+}
+.right-c2-font{
+    color: white;
+}
+.right-c2-section-btn{
+    color: white;
+    border: 2px solid white;
+}
+.right-c2-section{
+    width: 40%;
+    height: 100%;
+    background-color: #007042;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inner-right-c2{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container3{
+    width: 100%;
+    height: 49vh;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.inner-container3{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+.info-lists{
+    list-style: none;
+}
+.list-header{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.info-lists a{
+    text-decoration: none;
+    color: rgba(0,0,0,.58);
+    font-size: 16px;
+    line-height: 37px;
+}
+
+.footer-lists{
+    width: 240px;
+}
+
+.footer-hr{
+    width: 74%;
+    border-top: 1px solid rgb(175, 172, 172);
+    margin-left: 14em;
+}
+
+.footer{
+    width: 100%;
+    height: 20vh;
+    margin-top:25px;
+    display: flex;
+    justify-content: center;
+}
+
+.inner-footer{
+    width: 76.5%;
+    height: 100%;
+}
+
+.inner-footer ul{
+    list-style: none;
+    display: flex;
+}
+
+.inner-footer ul a{
+    text-decoration: none;
+    margin-right: 1em;
+    color: black;  
+}
+
+.inner-footer a img{
+    width: 35px;
+    height: 33px;
+    padding-right: 15px;
+}
+.copyrights{
+    margin-left: 39px;
+}
